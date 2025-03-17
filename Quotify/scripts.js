@@ -41,7 +41,21 @@ copyButton.addEventListener("click", async () => {
 //function for write to clipboard
 async function copyText(text) {
   try {
-    return await navigator.clipboard.writeText(text);
+    const textCopied = await navigator.clipboard.writeText(text);
+    Toastify({
+      text: "Quote copy to clipboard",
+      duration: 3000,
+      className: "warning",
+      close: true,
+      gravity: "top", // `top` or `bottom`
+      position: "center", // `left`, `center` or `right`
+      stopOnFocus: true, // Prevents dismissing of toast on hover
+      style: {
+        background:
+          "linear-gradient(to right, rgb(0, 176, 155), rgb(150, 201, 61))",
+      },
+    }).showToast();
+    return textCopied
   } catch (error) {
     console.log("Failed to copy to clipboard:", error);
   }

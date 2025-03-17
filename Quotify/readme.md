@@ -27,7 +27,7 @@ Endpoint: https://api.freeapi.app/api/v1/public/quotes/quote/random
 2. Click on "Generate Quote" to see a new quote 
 
 ## 🚀 Live Demo
-Check out the live version here: [Deployment Link](url)
+Check out the live version here: [Deployment Link](https://qoutify.netlify.app/)
 
 ## 🤝 Contributing
 
