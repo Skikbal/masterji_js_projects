@@ -7,7 +7,7 @@ This repository contains multiple JavaScript projects built using **HTML, CSS, a
 | #   | Project Name          | Description                                                                                                                       | Live Demo                            |
 | --- | --------------------- | --------------------------------------------------------------------------------------------------------------------------------- | ------------------------------------ |
 | 1   | [Qoutify](./Qoutify/) | Generates random quotes, allows sharing & downloading                                                                             | [Live](https://qoutify.netlify.app/) |
-| 2   | [VidMate](./Vidmate/) | **VidMate** is a frontend video browsing app with infinite scrolling, local search, and caching for seamless YouTube exploration. | [Live](https://qoutify.netlify.app/) |
+| 2   | [VidMate](./Vidmate/) | **VidMate** is a frontend video browsing app with infinite scrolling, local search, and caching for seamless YouTube exploration. | [Live](https://vid-mate.netlify.app/) |
 
 ## 🛠 How to Use
 

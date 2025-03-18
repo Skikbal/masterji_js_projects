@@ -30,7 +30,7 @@ Endpoint: `https://api.freeapi.app/api/v1/public/youtube/videos`
 2. Start browsing and searching videos  
 
 ## 🚀 Live Demo
-Check out the live version here: [Deployment Link](https://vidmate.netlify.app/)
+Check out the live version here: [Deployment Link](https://vid-mate.netlify.app/)
 
 ## 🤝 Contributing
 
