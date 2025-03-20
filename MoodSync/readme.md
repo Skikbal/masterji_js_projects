@@ -23,7 +23,7 @@ MoodSync is a simple yet powerful emotion-tracking application that allows users
 
 ## 🚀 Live Demo
 
-Check out the live version here: [Deployment Link](https://moodsync.netlify.app/)
+Check out the live version here: [Deployment Link](https://moodsynk.netlify.app/)
 
 ## 🤝 Contributing
 
