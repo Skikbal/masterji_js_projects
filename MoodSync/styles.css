@@ -1,0 +1,198 @@
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&display=swap');
+
+:root {
+    --blue-tone-50: #f2f5ff;
+    --blue-tone-100: #dae2ff;
+    --blue-tone-200: #c3cfff;
+    --blue-tone-300: #abbdff;
+    --blue-tone-400: #9babed;
+    --blue-tone-500: #8a9add;
+    --blue-tone-600: #697acb;
+    --blue-tone-700: #414fad;
+    --blue-tone-800: #211d8d;
+    --blue-tone-900: #121632;
+}
+
+
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: var(--blue-tone-900) !important;
+    font-family: "Ubuntu", sans-serif;
+    height: 100vh;
+    position: relative;
+}
+
+header p {
+    font-size: 32px;
+    color: var(--blue-tone-50);
+    font-weight: bold;
+
+}
+
+header button {
+    background-color: var(--blue-tone-400) !important;
+    border: none !important;
+    color: var(--blue-tone-900) !important;
+    font-weight: 450 !important;
+    transition: all 0.3s ease-in-out !important;
+}
+
+button {
+    border: none !important;
+    color: var(--blue-tone-900) !important;
+    font-weight: 450 !important;
+    transition: all 0.3s ease-in-out !important;
+}
+
+button:active {
+    transform: scale(0.98);
+}
+
+.main {
+    height: 80vh;
+}
+
+.mood-container {
+    /* width: 40%; */
+    border-radius: 20px;
+    background-color: var(--blue-tone-600);
+    color: var(--blue-tone-50);
+    box-shadow: rgb(138, 127, 255) 0px 1px 4px;
+}
+
+.form-control {
+    border: none !important;
+    outline: none !important;
+
+}
+
+.form-control::placeholder {
+    color: var(--blue-tone-500) !important;
+}
+
+.form-control:focus {
+    box-shadow: none !important;
+    border: none;
+    outline: none;
+}
+
+.moods .btn,
+.buttons .btn {
+    background-color: var(--blue-tone-900) !important;
+    color: var(--blue-tone-50) !important;
+}
+
+.moods .btn:hover,
+.buttons .btn:hover {
+    background-color: var(--blue-tone-800) !important;
+    color: var(--blue-tone-50) !important;
+}
+
+/* Extra Small Devices (Phones) */
+@media screen and (max-width: 576px) {
+    .moods {
+        flex-direction: column;
+    }
+
+    .moods button {
+        width: 100%;
+    }
+
+    .buttons {
+        flex-direction: column;
+    }
+
+    .buttons button {
+        width: 100%;
+    }
+
+    .main {
+        height: auto;
+    }
+
+    .calendar-box {
+        width: 98% !important;
+        height: auto !important;
+    }
+
+    .fc-header-toolbar {
+        flex-direction: column !important;
+        justify-content: start !important;
+    }
+    .mood-container {
+        /* width: 40%; */
+        border-radius: 20px;
+        background-color: var(--blue-tone-600);
+        color: var(--blue-tone-50);
+        box-shadow: rgb(138, 127, 255) 0px 1px 4px;
+    }
+}
+
+/* Small Devices (Tablets & Large Phones) */
+@media screen and (min-width: 577px) and (max-width: 768px) {
+
+    /* Styles for tablets & landscape phones */
+    .calendar-box {
+        width: 90% !important;
+        height: 70% !important;
+    }
+}
+
+/* Medium Devices (Laptops, Small Desktops) */
+@media screen and (min-width: 769px) and (max-width: 1024px) {
+    /* Styles for small laptops and large tablets */
+}
+
+/* Large Devices (Desktops & Large Screens) */
+@media screen and (min-width: 1025px) and (max-width: 1200px) {
+    /* Styles for desktops */
+}
+
+/* Extra Large Screens (4K, Ultra-wide monitors) */
+@media screen and (min-width: 1201px) {
+    /* Styles for extra-large screens */
+}
+
+
+
+/*calender*/
+.calendar-box {
+    display: none;
+    background-color: #272b30 !important;
+    position: absolute !important;
+    height: 80%;
+    width: 90%;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    border-radius: 10px;
+    z-index: 100;
+}
+
+#calendar {
+    /* display: none !important; */
+    width: 100%;
+    height: 100%;
+    padding: 10px;
+    cursor: pointer;
+    font-family: "Ubuntu", sans-serif;
+    text-decoration: none;
+}
+
+.fc-toolbar-chunk button {
+    color: var(--blue-tone-50) !important;
+    border: 1px solid var(--blue-tone-50) !important;
+    text-transform: capitalize !important;
+}
+
+.fc-col-header-cell-cushion,
+.fc-daygrid-day-number {
+    text-decoration: none !important;
+    color: var(--blue-tone-50) !important;
+}
