@@ -4,11 +4,12 @@ This repository contains multiple JavaScript projects built using **HTML, CSS, a
 
 ## 📌 Projects
 
-| #   | Project Name          | Description                                                                                                                       | Live Demo                            |
-| --- | --------------------- | --------------------------------------------------------------------------------------------------------------------------------- | ------------------------------------ |
-| 1   | [Qoutify](./Qoutify/) | Generates random quotes, allows sharing & downloading                                                                             | [Live](https://qoutify.netlify.app/) |
-| 2   | [VidMate](./Vidmate/) | **VidMate** is a frontend video browsing app with infinite scrolling, local search, and caching for seamless YouTube exploration. | [Live](https://vid-mate.netlify.app/) |
-| 3   | [VidMate](./MoodSync/) | **MoodSync** is a simple emotion-tracking app that lets users log daily moods and analyze trends over weeks and months using an intuitive calendar-based interface. | [Live](https://moodsynk.netlify.app/) |
+| #   | Project Name              | Description                                                                                                                                                         | Live Demo                                    |
+| --- | ------------------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------- | -------------------------------------------- |
+| 1   | [Qoutify](./Qoutify/)     | Generates random quotes, allows sharing & downloading                                                                                                               | [Live](https://qoutify.netlify.app/)         |
+| 2   | [VidMate](./Vidmate/)     | **VidMate** is a frontend video browsing app with infinite scrolling, local search, and caching for seamless YouTube exploration.                                   | [Live](https://vid-mate.netlify.app/)        |
+| 3   | [VidMate](./MoodSync/)    | **MoodSync** is a simple emotion-tracking app that lets users log daily moods and analyze trends over weeks and months using an intuitive calendar-based interface. | [Live](https://moodsynk.netlify.app/)        |
+| 4   | [BookShelf](./BookShelf/) | **BookShelf** is a simple digital library where it fetches data from the API and present it in a intractive way.                                                    | [Live](https://book-shelf-6cnm.onrender.com) |
 
 ## 🛠 How to Use
 
