@@ -24,5 +24,5 @@ Open `index.html` in a browser.
 
 ## Live Demo
 
-Check out the live version here: [Deployment Link](https://book-shelf-6cnm.onrender.com)
+Check out the live version here: [Deployment Link](https://read-ease.netlify.app/)
 
